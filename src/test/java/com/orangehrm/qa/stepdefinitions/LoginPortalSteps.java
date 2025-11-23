@@ -4,6 +4,8 @@ import com.orangehrm.qa.utils.ConfiguradorDriverUtil;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
+import io.cucumber.java.es.Y;
+import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
@@ -32,5 +34,13 @@ public class LoginPortalSteps {
         theActorInTheSpotlight().attemptsTo(
                 inicioSesionWeb(usuario,password)
         );
+
+    }
+
+    @Y("se envia la peticion Get al endpoint de empleados para validar codigo de respuesta {int}")
+    public void seEnviaLaPeticionGetAlEndpointDeEmpleadosParaValidarCodigoDeRespuesta(int codigo) {
+        SerenityRest.given()
+                .get("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
+        SerenityRest.lastResponse().then().statusCode(codigo);
     }
 }

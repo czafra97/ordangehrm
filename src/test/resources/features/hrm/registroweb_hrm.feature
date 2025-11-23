@@ -5,6 +5,7 @@ Característica: Crear emepleado en hrm
   Antecedentes:
     Dado que el usuario ingresa al portal hrm
     Cuando el usuario inicie sesion con usuario "Admin" y passowrd "admin123"
+    Y se envia la peticion Get al endpoint de empleados para validar codigo de respuesta 200
 
   @RegistroEmpleado
 
