@@ -1,0 +1,25 @@
+13:43:10.736 [AWT-EventQueue-0] INFO  c.b.s.l.BrowserStackRunExtension - gradle
+13:43:10.736 [AWT-EventQueue-0] INFO  com.browserstack.sdk.utils.Helpers - null
+13:43:46.200 [AWT-EventQueue-0] INFO  c.b.s.l.BrowserStackRunExtension - gradle
+13:43:46.200 [AWT-EventQueue-0] INFO  com.browserstack.sdk.utils.Helpers - null
+13:44:14.906 [AWT-EventQueue-0] INFO  c.b.s.l.BrowserStackRunExtension - gradle
+13:44:14.906 [AWT-EventQueue-0] INFO  com.browserstack.sdk.utils.Helpers - null
+13:45:07.569 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+13:45:07.576 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+13:47:10.719 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+13:47:10.725 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+13:47:55.015 [AWT-EventQueue-0] INFO  c.b.sdk.launchers.LaunchMavenCommand - Integrate source: java:intellij:2.0.0-IC
+13:47:55.015 [AWT-EventQueue-0] INFO  c.b.sdk.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+13:47:55.099 [ApplicationImpl pooled thread 420] INFO  c.b.s.l.BrowserStackRunExtension - maven
+13:47:55.100 [ApplicationImpl pooled thread 420] INFO  com.browserstack.sdk.utils.Helpers - null
+13:48:12.062 [java.exe] INFO  c.b.sdk.launchers.LaunchMavenCommand - Completed maven archetype command
+13:48:23.278 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+13:48:23.288 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+13:48:23.676 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+13:48:23.682 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+13:48:34.096 [AWT-EventQueue-0] INFO  c.b.s.l.BrowserStackRunExtension - gradle
+13:48:34.097 [AWT-EventQueue-0] INFO  com.browserstack.sdk.utils.Helpers - true
+13:51:04.097 [AWT-EventQueue-0] INFO  c.b.s.l.BrowserStackRunExtension - gradle
+13:51:04.097 [AWT-EventQueue-0] INFO  com.browserstack.sdk.utils.Helpers - true
+14:00:23.293 [AWT-EventQueue-0] INFO  c.b.s.l.BrowserStackRunExtension - gradle
+14:00:23.293 [AWT-EventQueue-0] INFO  com.browserstack.sdk.utils.Helpers - true

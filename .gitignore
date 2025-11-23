@@ -1,0 +1,12 @@
+/.gradle/
+/bin/
+/build/
+/history/
+/target/
+/.idea/
+/out/
+/.scannerwork/
+/.sonar/
+sonar_token.txt
+
+src/test/resources/serenity.conf
