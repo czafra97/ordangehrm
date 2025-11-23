@@ -15,7 +15,7 @@ Característica: Crear emepleado en hrm
 
     Ejemplos:
       | firstName | middleName | lastName |id   |
-      | test      |test2       | test3    |0418 |
+      | test      |test2       | test3    |0419 |
 
 
 

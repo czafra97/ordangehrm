@@ -32,9 +32,6 @@ public class EmpleadosPage extends PageObject {
     public static final Target BTN_SEARCH = Target
             .the("Boton de buscar").located(By.xpath("//button[normalize-space()='Search']"));
 
-    public static final Target OBJ_IDENCONTRADO = Target
-            .the("Id encontrado en la grilla").located(By.xpath("//div[contains(@class,'oxd-table-row') and contains(@class,'oxd-table-row--clickable')]"));
-
     public static final Target LBL_NAMEYMIDDLE = Target
             .the("texto de nombre y middle name concatenados").located(By.xpath("(//div[@class='oxd-table-cell oxd-padding-cell'])[3]/div"));
 
